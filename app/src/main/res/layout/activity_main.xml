@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="12dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:rowCount="6">
+
+        <TextView
+            android:id="@+id/txtTemp"
+            android:text="@string/txtTemp" />
+
+        <TextView />
+
+        <Button
+            android:id="@+id/btnCelsiusFahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnCelsiusFahrenheit"
+            android:textColor="#FF5722" />
+
+        <Button
+            android:id="@+id/btnFahrenheitCelcius"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnFahrenheitCelcius"
+            android:textColor="#FF5722" />
+
+        <Button
+            android:id="@+id/btnCelsiusKelvin"
+            android:layout_width="162dp"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnCelsiusKelvin"
+            android:textColor="#FF5722" />
+
+        <Button
+            android:id="@+id/btnDKelvinCelsius"
+            android:layout_width="166dp"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnDKelvinCelsius"
+            android:textColor="#FF5722" />
+
+        <TextView
+            android:id="@+id/txtDis"
+            android:text="@string/txtDis" />
+
+        <TextView />
+
+        <Button
+            android:id="@+id/btnMeterCentimeter"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnMeterCentimeter"
+            android:textColor="#FF5722" />
+
+        <Button
+            android:id="@+id/btnCentimeterMeter"
+            android:layout_width="168dp"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnCentimeterMeter"
+            android:textColor="#FF5722" />
+
+        <Button
+            android:id="@+id/btnCentimeterInch"
+            android:layout_width="158dp"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnCentimeterInch"
+            android:textColor="#FF5722" />
+
+        <Button
+            android:id="@+id/btnInchCentimeter"
+            android:layout_width="168dp"
+            android:layout_margin="2dp"
+            android:background="#424242"
+            android:text="@string/btnInchCentimeter"
+            android:textColor="#FF5722" />
+
+    </GridLayout>
+
+</RelativeLayout>

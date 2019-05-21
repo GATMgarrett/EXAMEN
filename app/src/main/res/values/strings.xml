@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Convertidor de unidades</string>
+    <string name="txtTemp">Unidades de temperatura</string>
+    <string name="txtDis">Unidades de distancia</string>
+    <string name="btnCelsiusFahrenheit">Clesius a Farenhels</string>
+    <string name="btnFahrenheitCelcius">Farenhels a Clesius</string>
+    <string name="btnCelsiusKelvin">Celsius a Kelvin</string>
+    <string name="btnDKelvinCelsius">Kelvin a Clesius</string>
+    <string name="btnMeterCentimeter">Metros a Centimetros</string>
+    <string name="btnCentimeterMeter">Centimetros a Metros</string>
+    <string name="btnCentimeterInch">Centimetros a Inch</string>
+    <string name="btnInchCentimeter">Inch a Centimetros</string>
+</resources>
