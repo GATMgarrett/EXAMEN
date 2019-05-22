@@ -44,7 +44,7 @@ public class Main2Activity extends AppCompatActivity {
                 this.setTitle(R.id.btnDKelvinCelsius);
                 break;
             case "5":
-                this.setTitle(R.id.btnMeterCentimeter);
+                this.setTitle(R.id.btnCentimeterMeter);
                 break;
             case "6":
                 this.setTitle(R.id.btnMeterCentimeter);

@@ -11,4 +11,7 @@
     <string name="btnCentimeterInch">Centimetros a Inch</string>
     <string name="btnInchCentimeter">Inch a Centimetros</string>
     <string name="atras">Atras</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="txtunidad">Unidad</string>
+    <string name="txtresultado">Resultado</string>
 </resources>
