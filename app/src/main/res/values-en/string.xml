@@ -11,4 +11,5 @@
     <string name="btnCentimeterMeter">Centimeter to Meter</string>
     <string name="btnCentimeterInch">Centimeter to Inch</string>
     <string name="btnInchCentimeter">Inch to Centimeter</string>
+    <string name="atras">Return</string>
 </resources>
